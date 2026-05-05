@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    
+}
+.input{
+    background-color: rgb(19, 20, 21);
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 250px;
+    min-height: 250px;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+label{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+button{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+ a{
+   text-decoration: none;
+   color: aliceblue;
+   letter-spacing: 0.6px;
+   margin-left: 20px;
+}
+#Bar{
+    height: 0;
+    width: 500px;
+    display: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
