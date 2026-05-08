@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'MyFont';
+    src: url('Myfont.ttf');
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.62a50a24a88db18c0f1bfcad24828cdd?rik=VB1M3SCBUWxMMA&riu=http%3a%2f%2fwww.geosage.com%2fproducts%2fELS2000_V3%2fLARGE_ELS2000_V3_Res30m_Style_B.jpg&ehk=Wvrqr%2fk0QwUgfsCx7pd2k4KnaSleuoeMd2SKoEDl4pA%3d&risl=&pid=ImgRaw&r=0);
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-family: 'MyFont' , sans-serif;
+}
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+   
+}
+a{
+    margin-right: 20px;
+    color: azure;
+    font-size: 25px;
+    text-shadow: -3px 3px 3px black;
+    transition: 0.4s;
+    display: inline-block;
+}
+a:hover{
+    transform: scale(1.2);
+    text-shadow: -5px 5px 12px rgb(24, 94, 110);
+}
+.nMap{
+    color: azure;
+    font-size: 450%;
+    margin-left: 50px;
+    text-decoration: underline;
+    text-shadow: -4px 4px 5px black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.nMap:hover{
+    transform: scale(1.2);
+    text-shadow: -5px 5px 12px rgb(24, 94, 110);
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+   
+
+}
+.search input{
+    width: 450px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+
+}
