@@ -1,25 +1,124 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="train.css">
-</head>
-<body>
-   
-    <!-- <button onclick="alert('Hello puya')">click me</button>
-    <p id="p">Change this text.</p>
-    <button id="btn" >click change</button>
-    <a id="a" href="">usdfvg</a> -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joker Gaming — Games</title>
+    <link rel="stylesheet" href="train.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="topbar">
+          <div class="brand">
+            <img src="joker.png" alt="Joker Gaming logo" class="brand__logo" />
+            <span class="brand__name">Joker Gaming</span>
+          </div>
 
-    
+          <form class="login-form" aria-label="Member login">
+            <label class="login-form__field">
+              <span class="sr-only">Username</span>
+              <input type="text" name="username" placeholder="Username" />
+            </label>
+            <label class="login-form__field">
+              <span class="sr-only">Password</span>
+              <input type="password" name="password" placeholder="Password" />
+            </label>
+            <button type="submit" class="button button--primary">Log In</button>
+            <button type="button" class="button button--secondary">Connect</button>
+          </form>
+        </div>
 
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home" class="main-nav__link">Home</a>
+          <a href="#games" class="main-nav__link main-nav__link--active">Games</a>
+          <a href="#live" class="main-nav__link">Live Games</a>
+          <a href="#manual" class="main-nav__link">Manual</a>
+          <a href="#about" class="main-nav__link">About Us</a>
+        </nav>
 
+        <section class="hero" id="home">
+          <div class="hero__content">
+            <p class="eyebrow">Download our mobile app manual</p>
+            <h1>Play anywhere with Joker Gaming</h1>
+            <p class="hero__text">
+              Enjoy the best casino games, progressive jackpots, and a smooth experience across desktop and mobile.
+            </p>
+            <div class="hero__actions">
+              <a href="#download" class="button button--download">Android Download</a>
+              <a href="#games" class="button button--ghost">Browse Games</a>
+            </div>
+          </div>
+          <div class="hero__visual" aria-hidden="true"></div>
+        </section>
+      </header>
 
+      <main>
+        <section class="category-bar" aria-label="Game filters">
+          <button class="pill pill--active" type="button">All Games</button>
+          <button class="pill" type="button">AI Power-ups</button>
+          <button class="pill" type="button">Moon Series</button>
+          <button class="pill" type="button">More</button>
+          <div class="search-row">
+            <label class="search-label" for="game-search">Search</label>
+            <div class="search-input-wrap">
+              <img src="search.png" alt="Search icon" class="search-icon" />
+              <input id="game-search" type="search" placeholder="Search games" />
+            </div>
+          </div>
+        </section>
 
+        <section class="games-grid" id="games">
+          <article class="game-card">
+            <img src="https://via.placeholder.com/300x180?text=Fortune+Fruit+Force+Five" alt="Fortune Fruit Force Five" />
+            <div class="game-card__badge">99% Bonus</div>
+            <h2>Fortune Fruit Force Five</h2>
+          </article>
 
+          <article class="game-card">
+            <img src="https://via.placeholder.com/300x180?text=Fortune+Crown+AI" alt="Fortune Crown AI" />
+            <div class="game-card__badge">99% Bonus</div>
+            <h2>Fortune Crown AI</h2>
+          </article>
 
-    <script src="train.js"></script>
-</body>
+          <article class="game-card">
+            <img src="https://via.placeholder.com/300x180?text=Book+of+Thermopylae" alt="Book of Thermopylae" />
+            <div class="game-card__badge">99% Bonus</div>
+            <h2>Book of Thermopylae</h2>
+          </article>
+
+          <article class="game-card game-card--highlighted">
+            <img src="https://via.placeholder.com/300x180?text=Super+Fortune+Crown" alt="Super Fortune Crown" />
+            <div class="game-card__actions">
+              <button class="button button--primary">Play Now</button>
+              <button class="button button--ghost">Play for Fun</button>
+            </div>
+            <h2>Super Fortune Crown</h2>
+          </article>
+
+          <article class="game-card">
+            <img src="https://via.placeholder.com/300x180?text=Monkey+King" alt="Monkey King" />
+            <h2>Monkey King</h2>
+          </article>
+        </section>
+      </main>
+
+      <aside class="sticky-panel" aria-label="Quick actions">
+        <a href="#download" class="sticky-panel__button">Download</a>
+        <a href="#home" class="sticky-panel__top" aria-label="Back to top">↑</a>
+      </aside>
+
+      <footer class="site-footer" id="about">
+        <div class="footer__brand">
+          <img src="joker.png" alt="Joker Gaming logo" />
+          <p>Copyright © 2018 Entertainment.</p>
+        </div>
+        <div class="footer__text">
+          <p>
+            We are constantly striving to give our members the most professional, exciting, and satisfying online entertainment, with excellence service, the best games offering and highly professional staff in a safe and comfortable environment.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
